@@ -1,23 +1,29 @@
+/*selector de tipo*/
 body{
     background-color: bisque;
 }
 
+/*selector de clase*/
 .principal{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/*selector de ID*/
 #informacion{
     text-align: center;
 }
 
+/*selector de atributo*/
 a[href*=".edu"]{
     background-color: gold;
 }
 
+/*selector de pseudo clase*/
 h1:hover{
     color:red
 }
 
+/*selector de pseudo elemento*/
 .principal::first-line{
     background-color: lightgray;
 }

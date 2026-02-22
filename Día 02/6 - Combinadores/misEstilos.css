@@ -1,15 +1,19 @@
+/*combinador descendiente*/
 div p{
     color: green;
 }
 
+/*combinador hijo directo */
 ol > li{
     font-weight: bolder;
 }
 
+/*combinador hermanos generales */
 h2 ~ h3{
     background-color: lightskyblue;
 }
 
+/*selector y combinador */
 div P[align="left"]:hover{
     background-color: gold;
 }
